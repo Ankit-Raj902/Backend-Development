@@ -3,6 +3,16 @@
 Hey everyone! 👋  
 This repository documents my journey of learning **Express.js** - the most popular web framework for Node.js. From basic server setup to advanced routing and middleware, here's everything I explored! 💻
 
+Express ek server banata hai jo user ke request (jo browser bhejta hai) ko sunta hai 👂
+Aur us request ke reply me kuch response (jaise text, HTML, JSON, file, etc.) bhejta hai 📤
+
+Ab browser jab bhi request karta hai, wo 4 main tariko me karta hai:
+👉 GET, POST, PUT, DELETE
+Inhi ko hum HTTP Methods bolte hain.
+
+app.get, app.post, app.put, app.delete — ye sab tere Express server ke different kaam batate hain:
+kis type ki request pe kya response dena hai.
+
 ---
 
 ## 🎯 What I Learned
