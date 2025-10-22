@@ -1,0 +1,58 @@
+{
+  "cat": {
+    "username": "cute_cat_life",
+    "name": "Mittens 🐱",
+    "bio": "Just a lazy cat living her best 9 lives 😸",
+    "followers": 8423,
+    "following": 123,
+    "posts": 56,
+    "profilePic": "https://placekitten.com/200/200",
+    "postsData": [
+      { "image": "https://placekitten.com/300/300", "caption": "Nap time again 😴" },
+      { "image": "https://placekitten.com/301/300", "caption": "Caught a string today 🧶" },
+      { "image": "https://placekitten.com/302/300", "caption": "Living the cozy life 🐾" }
+    ]
+  },
+  "dog": {
+    "username": "bark_buddy",
+    "name": "Bruno 🐶",
+    "bio": "Professional stick fetcher and belly rub lover 🦴",
+    "followers": 12500,
+    "following": 220,
+    "posts": 78,
+    "profilePic": "https://placedog.net/200/200",
+    "postsData": [
+      { "image": "https://placedog.net/300/300", "caption": "Who’s a good boy? Me obviously 😎" },
+      { "image": "https://placedog.net/301/300", "caption": "Beach day with hooman 🌊" },
+      { "image": "https://placedog.net/302/300", "caption": "Chasing my tail again 😂" }
+    ]
+  },
+  "bird": {
+    "username": "tweet_world",
+    "name": "Kiwi 🐦",
+    "bio": "Spreading wings & vibes 💚",
+    "followers": 6320,
+    "following": 98,
+    "posts": 45,
+    "profilePic": "https://loremflickr.com/200/200/bird",
+    "postsData": [
+      { "image": "https://loremflickr.com/300/300/bird", "caption": "Morning chirps 🌞" },
+      { "image": "https://loremflickr.com/301/300/bird", "caption": "New nest alert 🪺" },
+      { "image": "https://loremflickr.com/302/300/bird", "caption": "Flying high in the sky ☁️" }
+    ]
+  },
+  "rabbit": {
+    "username": "hoppy_life",
+    "name": "Snowy 🐇",
+    "bio": "Eat. Hop. Repeat. 🥕",
+    "followers": 4102,
+    "following": 56,
+    "posts": 39,
+    "profilePic": "https://loremflickr.com/200/200/rabbit",
+    "postsData": [
+      { "image": "https://loremflickr.com/300/300/rabbit", "caption": "Carrot time again 🥕" },
+      { "image": "https://loremflickr.com/301/300/rabbit", "caption": "New burrow discovered 🕳️" },
+      { "image": "https://loremflickr.com/302/300/rabbit", "caption": "Hop hop hooray 🎉" }
+    ]
+  }
+}

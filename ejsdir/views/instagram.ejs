@@ -1,0 +1,24 @@
+<%- include("includes/head.ejs") %>
+<body>
+    <div class="profile">
+        <img src="<%= instaData.profilePic %>" alt="<%= instaData.username %>">
+        <div class="name"><%= instaData.name %></div>
+        <div class="bio"><%= instaData.bio %></div>
+
+        <div class="stats">
+            <div class="stat"><b><%= instaData.followers %></b><br>Followers</div>
+            <div class="stat"><b><%= instaData.following %></b><br>Following</div>
+            <div class="stat"><b><%= instaData.posts %></b><br>Posts</div>
+        </div>
+
+        <div class="posts">
+            <% instaData.postsData.forEach(post => { %>
+                <div class="post">
+                    <img src="<%= post.image %>" alt="post">
+                    <div class="caption"><%= post.caption %></div>
+                </div>
+            <% }) %>
+        </div>
+    </div>
+</body>
+</html>

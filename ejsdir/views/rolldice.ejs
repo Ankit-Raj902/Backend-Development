@@ -1,0 +1,28 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roll</title>
+    <style>
+        body { text-align: center; padding: 50px; font-family: Arial, sans-serif; background-color: #f0f8ff; }
+        h1 { color: #ff4757; }
+        p { font-size: 36px; color: #2f3542; margin-top: 20px; }
+        a { display: inline-block; margin-top: 30px; text-decoration: none; color: #1e90ff; font-size: 18px; }
+        a:hover { color: #3742fa; }
+    </style>
+</head> -->
+<%- include("includes/head.ejs") %>
+<body>
+    <h1>🎲 Roll the Dice!</h1>
+    <p>You rolled: <%= diceValue %></p>
+    <% if(diceValue == 6){ %>
+        <h2>Nice! Roll the dice again !</h2>
+    <% } %>
+    <a href="/rolldice">Roll Again</a>
+</body>
+</html>
+
+
+
+    

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Profile</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #fafafa; text-align: center; padding: 50px; }
+        h1 { color: #e1306c; }
+        .card { display: inline-block; padding: 20px; background-color: white; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        p { font-size: 18px; margin: 10px 0; }
+        a { color: #0095f6; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>@<%= data.username %></h1>
+        <p><strong>Bio:</strong> <%= data.bio %></p>
+        <p><strong>Followers:</strong> <%= data.followers %></p>
+        <p><strong>Following:</strong> <%= data.following %></p>
+        <p><strong>Posts:</strong> <%= data.posts %></p>
+        <p>Check profile on <a href="https://www.instagram.com/<%= data.username %>/" target="_blank">Instagram</a></p>
+    </div>
+</body>
+</html>
+
