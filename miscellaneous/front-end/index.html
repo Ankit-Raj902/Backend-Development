@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GET vs POST Forms</title>
+</head>
+<body style="font-family: Arial; padding: 20px;">
+    <h1>GET vs POST Method Example</h1>
+
+    <!-- 🟢 FORM 1 : Using GET Method -->
+    <h2>Form using GET Method</h2>
+    <form action="http://localhost:8080/register" method="get">
+        <label for="username1">Username:</label>
+        <input type="text" id="username1" name="username"><br><br>
+
+        <label for="password1">Password:</label>
+        <input type="password" id="password1" name="password"><br><br>
+
+        <input type="submit" value="Login (GET)">
+    </form>
+
+    <hr>
+
+    <!-- 🔵 FORM 2 : Using POST Method -->
+    <h2>Form using POST Method</h2>
+    <form action="http://localhost:8080/register" method="post">
+        <label for="username2">Username:</label>
+        <input type="text" id="username2" name="username"><br><br>
+
+        <label for="password2">Password:</label>
+        <input type="password" id="password2" name="password"><br><br>
+
+        <input type="submit" value="Login (POST)">
+    </form>
+
+</body>
+</html>
