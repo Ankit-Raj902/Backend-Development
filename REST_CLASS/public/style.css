@@ -1,0 +1,149 @@
+/* ==============================
+   🔥 Common Styles for all pages
+   ============================== */
+body {
+  background-color: #f9f9f9;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: maroon;
+  margin-top: 30px;
+}
+
+/* ==============================
+   📄 Index.ejs — Posts styling
+   ============================== */
+.post {
+  width: 60%;
+  background-color: #fff;
+  margin: 20px auto;
+  border-radius: 12px;
+  padding: 20px;
+  border-left: 6px solid maroon;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.post .user {
+  color: maroon;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.post .content {
+  color: #333;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.btn-container {
+  text-align: right;
+}
+
+.view-btn,
+.edit-btn,
+.delete-btn {
+  background-color: maroon;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 12px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.view-btn {
+  background-color: #d44a04;
+}
+
+.view-btn:hover {
+  background-color: #ea5a5a;
+}
+
+.edit-btn:hover {
+  background-color: #ec5252;
+}
+
+.delete-btn {
+  background-color: #b22222;
+}
+
+.delete-btn:hover {
+  background-color: #ec5252;
+}
+
+/* ==============================
+   📝 new.ejs — Create Post Form styling
+   ============================== */
+.form-container {
+  width: 400px;
+  margin: 80px auto;
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.form-container h1 {
+  color: maroon;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: maroon;
+  font-weight: bold;
+}
+
+.input-group input,
+.input-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid maroon;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+}
+
+.input-group textarea {
+  resize: none;
+  height: 100px;
+}
+
+.submit-btn {
+  background: maroon;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  background: #a00000;
+}
+
+.back-btn {
+  display: inline-block;
+  margin-top: 15px;
+  color: maroon;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.back-btn:hover {
+  text-decoration: underline;
+}

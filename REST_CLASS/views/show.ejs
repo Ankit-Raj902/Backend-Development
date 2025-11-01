@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Post in Detail</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div class="form-container">
+    <h2 style="color: maroon;">Here is your post in detail</h2>
+    <p><strong>Post ID:</strong> <%= post.id %></p>
+    <div class="input-group">
+      <h3 style="color: maroon;">@<%= post.username %></h3>
+      <h4 style="color: #333;"><%= post.content %></h4>
+    </div>
+  </div>
+</body>
+</html>

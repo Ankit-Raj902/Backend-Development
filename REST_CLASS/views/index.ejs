@@ -1,0 +1,37 @@
+<%#Tere views folder ke andar jo file tu banata hai — jaise index.ejs —
+wo normal HTML nahi hoti, wo EJS (Embedded JavaScript) template hoti hai.
+EJS ka kaam hota hai — HTML + JavaScript ko mix karke dynamic page banana.%>
+
+<%# Ye EJS template Quora-style posts dikhata hai %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quora Posts</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Quora Posts</h1>
+  </header>
+
+  <main>
+    <% for (let post of posts) { %>
+      <div class="post">
+        <div class="user">@<%= post.username %></div>
+        <div class="content"><%= post.content %></div>
+        <div class="buttons">
+          <button onclick="window.location.href='http://localhost:8080/post/<%= post.id %>'" class="view-btn">View</button>
+          <button onclick="window.location.href='http://localhost:8080/post/<%= post.id %>/edit'" class="edit-btn">Edit</button>
+  
+          <form action="/post/<%= post.id %>?_method=DELETE" method="POST" style="display:inline;">
+            <button type="submit" class="delete-btn">Delete</button>
+          </form>
+        </div>
+      </div>
+    <% } %>
+  </main>
+ <a href="http://localhost:8080/post/new"><button style="margin-left: 270px;" type="button" class="submit-btn">Create new post</button></a>
+</body>
+</html>

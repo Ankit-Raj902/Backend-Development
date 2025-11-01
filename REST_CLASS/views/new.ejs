@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create New Post</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="form-container">
+    <h1>Create a New Post 📝</h1>
+
+    <!-- Form starts -->
+    <form action="/posts" method="POST">
+        <!--konsa request jarha method batayega =>POST & action mtlb kis par request (post) bhjena chahte hai => /posts par -->
+      <!-- Username -->
+      <div class="input-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Enter your username" required>
+      </div>
+
+      <!-- Post content -->
+      <div class="input-group">
+        <label for="content">Post:</label>
+        <textarea id="content" name="content" placeholder="Write your post..." required></textarea>
+      </div>
+
+      <!-- Submit button -->
+      <button type="submit" class="submit-btn">Submit</button>
+    </form>
+
+    <a href="http://localhost:8080/posts" class="back-btn">⬅ Back to Posts</a>
+  </div>
+</body>
+</html>
