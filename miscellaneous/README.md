@@ -166,6 +166,22 @@ GetPostExample/
 ✅ `req.body` → POST data access karne ke liye  
 ✅ Form me `action` aur `method` define karna zaroori hai  
 
+###meanign of parsing out data
+
+“Parsing out data” ka matlab hai raw data ko samajhne layak ya structured format me convert karna, taki program ya code easily usse use kar sake. Basically, jab hum kehte hain “parse out data”, toh hum data ko break down karke extract kar rahe hote hain useful parts ko.
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 
 Made with 💻 + ☕ + ❤️ by **Ankit Raj** ✨
